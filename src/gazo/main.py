@@ -1,5 +1,5 @@
 import argparse
-from commands.display_image import display_image
+from .commands.display_image import display_image
 
 def main():
     parser = argparse.ArgumentParser(prog="gazo")
